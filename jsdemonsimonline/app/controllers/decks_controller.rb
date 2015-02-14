@@ -50,11 +50,9 @@ class DecksController < ApplicationController
 			deckfile.puts rune
 		end
 		deckfile.close
-		puts `pwd`
-		puts `./sim -deck deck.txt`
-		redirect_to decks_path
-		#output = IO.open('sim -deck deck.txt')
-		#output.readlines
+		cmd = "./sim -deck deck.txt -demon " + deck.demon_name + " > out.txt"
+		outtext = File.read("out.txt").gsub(/\n/,'<br>')
+		render :text => outtext
 	end
 
   private
@@ -63,6 +61,6 @@ class DecksController < ApplicationController
     end
 
     def deck_params
-      params.require(:deck).permit(:name, :cards, :runes, :user_id)
+      params.require(:deck).permit(:name, :cards, :runes, :user_id, :demon_name)
     end
 end
