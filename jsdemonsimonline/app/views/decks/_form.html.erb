@@ -23,10 +23,10 @@
     <%= f.label :runes %><br>
     <%= f.text_field :runes %>
   </div>
-  <div class="field" style="display: none">
-    <%= f.label :user_id %><br>
-    <%=  current_user.id %>
-  </div>
+	<div class="field">
+		<%= f.label :demon_name %><br>
+		<%= f.text_field :demon_name %>
+	</div>
   <div class="actions">
     <%= f.submit %>
   </div>
