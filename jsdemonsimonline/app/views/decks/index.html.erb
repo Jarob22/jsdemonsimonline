@@ -1,31 +1,32 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Decks</h1>
-
-<div id="decks_div">
-	<% @decks.each do |deck| %><div>
-			<dl>
-				<dt>Name</dt>
-				<dd><%= deck.name %></dd>
-				<dt>Cards</dt>
-				<dd>
-					<% deck.cards.split(',').each do |card| %>
-						<%= card %><br>
-					<% end %>
-				</dd>
-				<dt>Runes</dt>
-				<dd>
-					<% deck.runes.split(',').each do |rune| %>
-						<%= rune %><br>
-					<% end %>
-				</dd>
-				<dt>Actions</dt>
-				<dd><%= link_to 'Show', deck %></dd>
-				<dd><%= link_to 'Edit', edit_deck_path(deck) %></dd>
-				<dd><%= link_to 'Destroy', deck, method: :delete, data: { confirm: 'Are you sure?' } %></dd>
-			</dl>
-		</div><% end %>
-</div>
-
+<% if defined?(@decks) && !@decks.nil? %>
+	<div id="decks_div">
+		<% @decks.each do |deck| %><div>
+				<dl>
+					<dt>Name</dt>
+					<dd><%= deck.name %></dd>
+					<dt>Cards</dt>
+					<dd>
+						<% deck.cards.split(',').each do |card| %>
+							<%= card %><br>
+						<% end %>
+					</dd>
+					<dt>Runes</dt>
+					<dd>
+						<% deck.runes.split(',').each do |rune| %>
+							<%= rune %><br>
+						<% end %>
+					</dd>
+					<dt>Actions</dt>
+					<dd><%= link_to 'Show', deck %></dd>
+					<dd><%= link_to 'Edit', edit_deck_path(deck) %></dd>
+					<dd><%= link_to 'Destroy', deck, method: :delete, data: { confirm: 'Are you sure?' } %></dd>
+					<dd><%= link_to 'Sim', sim_deck_path(deck) %></dd>
+				</dl>
+			</div><% end %>
+	</div>
+<% end %>
 
 <%= link_to 'New Deck', new_deck_path %>
