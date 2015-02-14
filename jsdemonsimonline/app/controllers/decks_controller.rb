@@ -39,9 +39,16 @@ class DecksController < ApplicationController
     respond_with(@deck)
   end
 
+	#This whole thing is horrible but works for the moment, MUST fix properly
 	def sim()
 		deck = Deck.find params[:id]
-		deckfile = File.open "deck.txt", "w"
+		#Create the tmp timenow folder and cp the sim into it
+		timenow = Time.now.strftime('%s%N')
+		Dir.mkdir timenow
+		system("cp sim " + timenow)
+		#Create the tmp deck file
+		deckname = "deck" + timenow + ".txt"
+		deckfile = File.open timenow + "/" +  deckname, "w"
 		deck.cards.split(',').each do |card|
 			deckfile.puts card
 		end
@@ -49,10 +56,24 @@ class DecksController < ApplicationController
 			deckfile.puts rune
 		end
 		deckfile.close
-		cmd = "./sim -deck deck.txt -demon " + deck.demon_name + " > out.txt"
+		#Create the tmp cards file
+		cardsfile = File.open timenow + "/cards.txt", "w"
+		cardsfile.puts current_user.cardslist
+		system("touch " + timenow + "/out.txt")
+		cmd = "cd " + timenow + " && ./sim -deck " + deckname + " -demon " + deck.demon_name + " > " + timenow + "/out.txt"
 		system(cmd)
-		outtext = File.read("out.txt").gsub(/\n/,'<br>')
+		outtext = File.read(timenow + "/out.txt").gsub(/\n/,'<br>')
+		#Move back to original fs position and delete the tmp folder
+		system("cd -")
+		#FileUtils.rm_rf(timenow)
+		puts current_user.methods
 		render :text => outtext
+	end
+
+	def save_cardslist()
+		cardslist = params[:cardslist]
+		current_user.cardslist = cardslist
+		current_user.save!
 	end
 
   private

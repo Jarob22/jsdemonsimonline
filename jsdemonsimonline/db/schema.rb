@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150214122144) do
+ActiveRecord::Schema.define(version: 20150214192425) do
 
   create_table "decks", force: true do |t|
     t.string   "name"
@@ -44,6 +44,7 @@ ActiveRecord::Schema.define(version: 20150214122144) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "level"
+    t.text     "cardslist"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

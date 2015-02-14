@@ -26,3 +26,13 @@ dt {
 p {
 	padding-left: 20px
 }
+textarea {
+	resize: both;
+	height: 2000px;
+	width: 500px;
+	white-space: nowrap;
+	overflow: auto;
+}
+#cardslistdiv {
+	display: none
+}
