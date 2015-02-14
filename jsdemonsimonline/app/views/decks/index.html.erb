@@ -1,7 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Decks</h1>
+<% if !current_user.nil? %>
 Current level: <%= current_user.level %>
+<% end %>
 <% if defined?(@decks) && !@decks.nil? %>
 	<div id="decks_div">
 		<% @decks.each do |deck| %><div>

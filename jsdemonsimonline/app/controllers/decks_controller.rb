@@ -1,10 +1,9 @@
 class DecksController < ApplicationController
-  before_action :authenticate_user!, :set_deck, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, :set_deck, only: [:show, :edit, :update, :destroy, :new]
 
   respond_to :html
 
   def index
-		puts current_user.id
 		if !current_user.nil? && !current_user.id.nil?
     	@decks = Deck.where('user_id': current_user.id)
     	respond_with(@decks)
