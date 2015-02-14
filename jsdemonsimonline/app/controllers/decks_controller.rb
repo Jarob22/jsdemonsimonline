@@ -50,6 +50,7 @@ class DecksController < ApplicationController
 		end
 		deckfile.close
 		cmd = "./sim -deck deck.txt -demon " + deck.demon_name + " > out.txt"
+		system(cmd)
 		outtext = File.read("out.txt").gsub(/\n/,'<br>')
 		render :text => outtext
 	end
