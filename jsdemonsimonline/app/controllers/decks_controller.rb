@@ -56,7 +56,9 @@ class DecksController < ApplicationController
 
   private
     def set_deck
-      @deck = Deck.find(params[:id])
+			if !params[:id].nil?
+      	@deck = Deck.find(params[:id])
+			end
     end
 
     def deck_params
