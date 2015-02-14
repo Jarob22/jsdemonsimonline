@@ -2,10 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-dt {
-	font-weight: bold
+table,th,td {
+	border: 1px solid black;
 }
-#deck_div {
+dt {
+	font-weight: bold;
+	display: inline-block
+}
+
+#decks_div div:nth-child(even) {
+	background: lightgrey;	
+}
+#decks_div div:nth-child(odd) {
+	background: lightgreen;	
+}
+#decks_div div {
 	display: inline-block;
-	margin-left: 40px
+	vertical-align: top;
+	padding-left: 5px;
+	padding-right: 20px;
+	height: 100%;
+}
+p {
+	padding-left: 20px
 }
