@@ -1,5 +1,5 @@
 class DecksController < ApplicationController
-  before_action :authenticate_user!, :set_deck, only: [:show, :edit, :update, :destroy, :new]
+  before_action :authenticate_user!, :set_deck, only: [:show, :edit, :update, :destroy, :new, :index]
 
   respond_to :html
 
