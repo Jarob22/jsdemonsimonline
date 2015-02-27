@@ -58,16 +58,22 @@ class DecksController < ApplicationController
 		deckfile.close
 		#Create the tmp cards file
 		cardsfile = File.open timenow + "/cards.txt", "w"
-		cardsfile.puts current_user.cardslist
-		system("touch " + timenow + "/out.txt")
-		cmd = "cd " + timenow + " && ./sim -deck " + deckname + " -demon " + deck.demon_name + " > " + timenow + "/out.txt"
-		system(cmd)
-		outtext = File.read(timenow + "/out.txt").gsub(/\n/,'<br>')
-		#Move back to original fs position and delete the tmp folder
-		system("cd -")
-		#FileUtils.rm_rf(timenow)
-		puts current_user.methods
-		render :text => outtext
+		text_to_output = ""
+		if current_user.cardslist == nil || current_user.cardslist.strip == ""
+			text_to_output = "Please paste your cards.txt into your cardslist on the main page (navigate back to /decks)"
+		else
+			cardsfile.puts current_user.cardslist.gsub("\u00A0","")
+			system("touch " + timenow + "/out.txt")
+			cmd = "cd " + timenow + " && ./sim -deck " + deckname + " -demon " + deck.demon_name + " -level " + current_user.level.to_s + " > out.txt"
+			system(cmd)
+			outtext = File.read(timenow + "/out.txt").gsub(/\n/,'<br>')
+			puts outtext
+			#Move back to original fs position and delete the tmp folder
+			system("cd -")
+			#FileUtils.rm_rf(timenow)
+			text_to_output = outtext
+		end
+		render :text => text_to_output
 	end
 
 	def save_cardslist()
