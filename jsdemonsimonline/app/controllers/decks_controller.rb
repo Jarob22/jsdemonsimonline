@@ -64,7 +64,7 @@ class DecksController < ApplicationController
 		else
 			cardsfile.puts current_user.cardslist.gsub("\u00A0","")
 			system("touch " + timenow + "/out.txt")
-			cmd = "cd " + timenow + " && ./sim -deck " + deckname + " -demon " + deck.demon_name + " -level " + current_user.level.to_s + " > out.txt"
+			cmd = "cd " + timenow + " && ./sim -deck " + deckname + " -demon " + deck.demon_name + " -level " + current_user.level.to_s + " > out.txt 2>&1"
 			system(cmd)
 			outtext = File.read(timenow + "/out.txt").gsub(/\n/,'<br>')
 			puts outtext

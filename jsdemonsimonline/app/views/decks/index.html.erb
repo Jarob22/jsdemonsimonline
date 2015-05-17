@@ -2,10 +2,10 @@
 
 <h1>Listing Decks</h1>
 <% if !current_user.nil? %>
-Current level: <%= current_user.level %>
-<a href="#" onclick="$('#cardslistdiv').show()">Show cardslist</a>
+Current level: <%= current_user.level %>  <%= link_to 'Edit user info', edit_user_registration_path %><br/>
+<a id="showcardslistlink" href="#" onclick="$('#cardslistdiv').show();$('#showcardslistlink').hide();">Show cardslist</a>
 <div id="cardslistdiv">
-	<a href="#" onclick="$('#cardslistdiv').hide()">Hide cardslist</a>
+	<a href="#" onclick="$('#cardslistdiv').hide();$('#showcardslistlink').show();">Hide cardslist</a>
 	<%= form_for current_user, url: user_registration_path do |f| %>
 		<%= f.text_area :cardslist %>
 		<%= f.submit 'Save' %>
