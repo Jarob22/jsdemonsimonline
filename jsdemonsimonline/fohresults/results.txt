@@ -1,0 +1,33 @@
+<b>Elemental Kingdoms FoH Simulations</b>
+
+
+<b>destiny</b>
+
+Elemental Kingdoms Fanatic 0.0.6.0 Initializing server connection... Connecting to Destiny Downloading card data... Downloading skill data... Downloading rune data... Downloading FoH data... Elemental Kingdoms Fanatic 0.0.6.0 - Running FoH (10000 iterations) [LF]Adonis vs {SOD}loLoLOLoLol: [LF]Adonis has 79% chance to win, {SOD}loLoLOLoLol has 21% chance to win Peppppppi of War vs [GM]Dynamite: Peppppppi of War has 74% chance to win, [GM]Dynamite has 26% chance to win Finished! 
+
+
+<b>chaos</b>
+
+Elemental Kingdoms Fanatic 0.0.6.0 Initializing server connection... Connecting to Chaos Downloading card data... Downloading skill data... Downloading rune data... Downloading FoH data... Elemental Kingdoms Fanatic 0.0.6.0 - Running FoH (10000 iterations) [EL] Lion vs [EL]dogfun: [EL] Lion has 76% chance to win, [EL]dogfun has 24% chance to win [C]Tehola vs [ZWA] Joasb: [C]Tehola has 29% chance to win, [ZWA] Joasb has 71% chance to win Finished! 
+
+
+<b>serenity</b>
+
+Elemental Kingdoms Fanatic 0.0.6.0 Initializing server connection... Connecting to Serenity Downloading card data... Downloading skill data... Downloading rune data... Downloading FoH data... Elemental Kingdoms Fanatic 0.0.6.0 - Running FoH (10000 iterations) [WoN] Killer vs [WoN] Marv: [WoN] Killer has 24% chance to win, [WoN] Marv has 76% chance to win [GoW] Wonder vs [WoN] Dalek: [GoW] Wonder has 39% chance to win, [WoN] Dalek has 61% chance to win Finished! 
+
+
+<b>fury</b>
+
+Elemental Kingdoms Fanatic 0.0.6.0 Initializing server connection... Connecting to Fury Downloading card data... Downloading skill data... Downloading rune data... Downloading FoH data... Elemental Kingdoms Fanatic 0.0.6.0 - Running FoH (10000 iterations) [DR] Dewbot vs [AS]Invictus: [DR] Dewbot has 93% chance to win, [AS]Invictus has 7% chance to win [DR] Nekark vs [DR] Black: [DR] Nekark has 66% chance to win, [DR] Black has 34% chance to win Finished! 
+
+
+<b>harmony</b>
+
+Elemental Kingdoms Fanatic 0.0.6.0 Initializing server connection... Connecting to Harmony Downloading card data... Downloading skill data... Downloading rune data... Downloading FoH data... Elemental Kingdoms Fanatic 0.0.6.0 - Running FoH (10000 iterations) {KNI} kayee vs [S]Avi: {KNI} kayee has 68% chance to win, [S]Avi has 32% chance to win xXxGaz814 vs Lutyr: xXxGaz814 has 93% chance to win, Lutyr has 7% chance to win Finished! 
+
+
+<b>legacy</b>
+
+Elemental Kingdoms Fanatic 0.0.6.0 Initializing server connection... Connecting to Legacy Downloading card data... Downloading skill data... Downloading rune data... Downloading FoH data... Elemental Kingdoms Fanatic 0.0.6.0 - Running FoH (10000 iterations) ? Exo ? vs [TD] Aesthyr: ? Exo ? has 45% chance to win, [TD] Aesthyr has 55% chance to win [GoW] Ares vs ? Lux ?: [GoW] Ares has 60% chance to win, ? Lux ? has 40% chance to win Finished! 
+
+

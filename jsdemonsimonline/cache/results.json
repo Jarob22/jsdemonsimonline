@@ -1,0 +1,508 @@
+[
+  {
+    "MinMerit": 0,
+    "MaxMerit": 0,
+    "SumMerit": 0,
+    "MinRounds": 20,
+    "MaxRounds": 71,
+    "SumRounds": 31385,
+    "NumberOfTimesReachedRoundFifty": 14,
+    "NumberOfTimesReachedRoundHundred": 0,
+    "RoundsWon": 451,
+    "Iterations": 1000,
+    "Cooldown": 320,
+    "MPF": 0,
+    "MPM": 0,
+    "PercentHittingRound50": 1,
+    "PercentHittingRound100": 0,
+    "Attacker": {
+      "Level": 95,
+      "Deck": {
+        "UserCardInfo": [
+          {
+            "CardId": 151,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 20395121
+          },
+          {
+            "CardId": 151,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 3046941
+          },
+          {
+            "CardId": 55,
+            "Level": 10,
+            "Evolution": 2,
+            "WashTime": 2,
+            "SkillNew": 141,
+            "Exp": 0,
+            "UserCardId": 21333016
+          },
+          {
+            "CardId": 56,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 8392023
+          },
+          {
+            "CardId": 231,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 603,
+            "Exp": 0,
+            "UserCardId": 10126666
+          },
+          {
+            "CardId": 115,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 1263043
+          },
+          {
+            "CardId": 114,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 1976857
+          },
+          {
+            "CardId": 245,
+            "Level": 13,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 835,
+            "Exp": 0,
+            "UserCardId": 10792618
+          },
+          {
+            "CardId": 252,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 17410317
+          },
+          {
+            "CardId": 244,
+            "Level": 11,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 231,
+            "Exp": 0,
+            "UserCardId": 19483135
+          }
+        ],
+        "Runes": [
+          {
+            "RuneId": 51,
+            "Level": 4
+          },
+          {
+            "RuneId": 40,
+            "Level": 4
+          },
+          {
+            "RuneId": 38,
+            "Level": 4
+          },
+          {
+            "RuneId": 16,
+            "Level": 4
+          }
+        ],
+        "Uid": 0,
+        "GroupId": 0,
+        "Name": null
+      }
+    },
+    "Defender": {
+      "Level": 89,
+      "Deck": {
+        "UserCardInfo": [
+          {
+            "CardId": 302,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 8,
+            "SkillNew": 282,
+            "Exp": 0,
+            "UserCardId": 20811581
+          },
+          {
+            "CardId": 334,
+            "Level": 14,
+            "Evolution": 5,
+            "WashTime": 6,
+            "SkillNew": 603,
+            "Exp": 0,
+            "UserCardId": 23060297
+          },
+          {
+            "CardId": 165,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 966,
+            "Exp": 0,
+            "UserCardId": 20961256
+          },
+          {
+            "CardId": 28,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 12720546
+          },
+          {
+            "CardId": 211,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 21225931
+          },
+          {
+            "CardId": 24,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 603,
+            "Exp": 0,
+            "UserCardId": 14461973
+          },
+          {
+            "CardId": 224,
+            "Level": 10,
+            "Evolution": 2,
+            "WashTime": 2,
+            "SkillNew": 510,
+            "Exp": 0,
+            "UserCardId": 25163064
+          },
+          {
+            "CardId": 123,
+            "Level": 13,
+            "Evolution": 3,
+            "WashTime": 3,
+            "SkillNew": 270,
+            "Exp": 0,
+            "UserCardId": 20124213
+          },
+          {
+            "CardId": 192,
+            "Level": 10,
+            "Evolution": 1,
+            "WashTime": 1,
+            "SkillNew": 116,
+            "Exp": 0,
+            "UserCardId": 23859674
+          },
+          {
+            "CardId": 210,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": 0,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 26089431
+          }
+        ],
+        "Runes": [
+          {
+            "RuneId": 52,
+            "Level": 4
+          },
+          {
+            "RuneId": 30,
+            "Level": 4
+          },
+          {
+            "RuneId": 29,
+            "Level": 4
+          },
+          {
+            "RuneId": 24,
+            "Level": 4
+          }
+        ],
+        "Uid": 0,
+        "GroupId": 0,
+        "Name": null
+      }
+    }
+  },
+  {
+    "MinMerit": 0,
+    "MaxMerit": 0,
+    "SumMerit": 0,
+    "MinRounds": 19,
+    "MaxRounds": 65,
+    "SumRounds": 30149,
+    "NumberOfTimesReachedRoundFifty": 12,
+    "NumberOfTimesReachedRoundHundred": 0,
+    "RoundsWon": 603,
+    "Iterations": 1000,
+    "Cooldown": 332,
+    "MPF": 0,
+    "MPM": 0,
+    "PercentHittingRound50": 1,
+    "PercentHittingRound100": 0,
+    "Attacker": {
+      "Level": 120,
+      "Deck": {
+        "UserCardInfo": [
+          {
+            "CardId": 113,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 6,
+            "SkillNew": 49,
+            "Exp": 0,
+            "UserCardId": 18215350
+          },
+          {
+            "CardId": 113,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 49,
+            "Exp": 0,
+            "UserCardId": 21339978
+          },
+          {
+            "CardId": 113,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 6,
+            "SkillNew": 49,
+            "Exp": 0,
+            "UserCardId": 6774339
+          },
+          {
+            "CardId": 308,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 835,
+            "Exp": 0,
+            "UserCardId": 19351128
+          },
+          {
+            "CardId": 308,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 602,
+            "Exp": 0,
+            "UserCardId": 19351086
+          },
+          {
+            "CardId": 307,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 21600411
+          },
+          {
+            "CardId": 307,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 21554203
+          },
+          {
+            "CardId": 307,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 88,
+            "Exp": 0,
+            "UserCardId": 10900254
+          },
+          {
+            "CardId": 56,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 17101484
+          },
+          {
+            "CardId": 56,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 11807233
+          }
+        ],
+        "Runes": [
+          {
+            "RuneId": 8,
+            "Level": 4
+          },
+          {
+            "RuneId": 20,
+            "Level": 4
+          },
+          {
+            "RuneId": 19,
+            "Level": 4
+          },
+          {
+            "RuneId": 16,
+            "Level": 4
+          }
+        ],
+        "Uid": 0,
+        "GroupId": 0,
+        "Name": null
+      }
+    },
+    "Defender": {
+      "Level": 93,
+      "Deck": {
+        "UserCardInfo": [
+          {
+            "CardId": 88,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 7,
+            "SkillNew": 102,
+            "Exp": 0,
+            "UserCardId": 22587153
+          },
+          {
+            "CardId": 249,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 835,
+            "Exp": 0,
+            "UserCardId": 18888624
+          },
+          {
+            "CardId": 244,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 6,
+            "SkillNew": 322,
+            "Exp": 0,
+            "UserCardId": 19864996
+          },
+          {
+            "CardId": 244,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 9,
+            "SkillNew": 322,
+            "Exp": 0,
+            "UserCardId": 19866398
+          },
+          {
+            "CardId": 353,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 835,
+            "Exp": 0,
+            "UserCardId": 24695077
+          },
+          {
+            "CardId": 307,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 6,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 22027918
+          },
+          {
+            "CardId": 244,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 19897845
+          },
+          {
+            "CardId": 192,
+            "Level": 14,
+            "Evolution": 4,
+            "WashTime": 4,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 23790067
+          },
+          {
+            "CardId": 88,
+            "Level": 15,
+            "Evolution": 5,
+            "WashTime": 5,
+            "SkillNew": 688,
+            "Exp": 0,
+            "UserCardId": 20889622
+          },
+          {
+            "CardId": 28,
+            "Level": 11,
+            "Evolution": 3,
+            "WashTime": 3,
+            "SkillNew": 262,
+            "Exp": 0,
+            "UserCardId": 19616863
+          }
+        ],
+        "Runes": [
+          {
+            "RuneId": 51,
+            "Level": 4
+          },
+          {
+            "RuneId": 40,
+            "Level": 4
+          },
+          {
+            "RuneId": 38,
+            "Level": 4
+          },
+          {
+            "RuneId": 37,
+            "Level": 4
+          }
+        ],
+        "Uid": 0,
+        "GroupId": 0,
+        "Name": null
+      }
+    }
+  }
+]

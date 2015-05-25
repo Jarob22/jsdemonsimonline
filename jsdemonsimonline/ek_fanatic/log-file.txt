@@ -1,0 +1,184 @@
+[Header]
+2015-05-20 22:38:16,543 [1] INFO  ElementalKingdoms.Program::Main - Elemental Kingdom Fanatic started.
+2015-05-20 22:38:17,036 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : Pulverise
+2015-05-20 22:38:17,038 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 11
+2015-05-20 22:38:17,038 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 6793420
+2015-05-20 22:38:17,038 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-20 22:38:17,041 [1] INFO  ElementalKingdoms.server.ServerCommunicator::.ctor - Using DeviceId 532a8c6ce48993880ba2ef2b52c7395a
+2015-05-20 22:38:17,057 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : [C]ard Freak
+2015-05-20 22:38:17,057 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 8039
+2015-05-20 22:38:17,057 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 154101
+2015-05-20 22:38:17,057 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+2015-05-20 22:38:17,061 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : JBVZ
+2015-05-20 22:38:17,061 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 31
+2015-05-20 22:38:17,061 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 464811
+2015-05-20 22:38:17,061 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-20 22:38:17,064 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : Hye Joon
+2015-05-20 22:38:17,065 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 8040
+2015-05-20 22:38:17,065 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 100298
+2015-05-20 22:38:17,065 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+2015-05-20 22:38:17,068 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : VonFresch
+2015-05-20 22:38:17,068 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 178
+2015-05-20 22:38:17,068 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 115235
+2015-05-20 22:38:17,068 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+2015-05-20 22:38:17,072 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : nyuszi
+2015-05-20 22:38:17,072 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 178
+2015-05-20 22:38:17,072 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 329204
+2015-05-20 22:38:17,072 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-20 22:38:17,073 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : NoirChan
+2015-05-20 22:38:17,073 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 11
+2015-05-20 22:38:17,073 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 110759034
+2015-05-20 22:38:17,073 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-20 22:38:17,073 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : Khayyn
+2015-05-20 22:38:17,073 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 279
+2015-05-20 22:38:17,074 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1039887
+2015-05-20 22:38:17,074 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+2015-05-23 14:25:18,922 [1] INFO  ElementalKingdoms.Program::Main - Elemental Kingdom Fanatic started.
+2015-05-23 14:25:19,604 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : [C]Riser
+2015-05-23 14:25:19,606 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 347
+2015-05-23 14:25:19,606 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 34319199985
+2015-05-23 14:25:19,606 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-23 14:25:19,609 [1] INFO  ElementalKingdoms.server.ServerCommunicator::.ctor - Using DeviceId 532a8c6ce48993880ba2ef2b52c7395a
+2015-05-23 14:25:19,621 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image img_photoCard_347.PNG
+2015-05-23 14:25:21,602 [1] INFO  ElementalKingdoms.server.ServerCommunicator::ServerLogin - Registering nickname AHRIMAN7396
+2015-05-23 14:25:30,692 [1] WARN  ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find package package_347 - trying to download it manually...
+2015-05-23 14:25:33,724 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : [C] ZEROx
+2015-05-23 14:25:33,724 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 236
+2015-05-23 14:25:33,724 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 113101
+2015-05-23 14:25:33,725 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+2015-05-23 14:25:33,726 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image img_photoCard_236.PNG
+2015-05-23 14:25:36,189 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : [C] ?????
+2015-05-23 14:25:36,189 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 164
+2015-05-23 14:25:36,189 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 491893450
+2015-05-23 14:25:36,189 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-23 14:25:36,190 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image img_photoCard_164.PNG
+2015-05-23 14:25:38,103 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : saiiilu
+2015-05-23 14:25:38,103 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 178
+2015-05-23 14:25:38,104 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 148684
+2015-05-23 14:25:38,104 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+2015-05-23 14:25:38,105 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image img_photoCard_178.PNG
+2015-05-23 14:25:39,982 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : trigger
+2015-05-23 14:25:39,982 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 178
+2015-05-23 14:25:39,982 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 39730990
+2015-05-23 14:25:39,982 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.5
+2015-05-23 14:25:39,983 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : [C]Mønæ Lisæ
+2015-05-23 14:25:39,983 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 8039
+2015-05-23 14:25:39,983 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 105331
+2015-05-23 14:25:39,983 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 3
+2015-05-23 14:25:39,985 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image img_photoCard_8039.PNG
+2015-05-23 14:25:41,827 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : [C]Mercenary
+2015-05-23 14:25:41,827 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 8039
+2015-05-23 14:25:41,827 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 115323
+2015-05-23 14:25:41,827 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 2.96685
+2015-05-23 14:25:41,828 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Name  : Funny Addiction
+2015-05-23 14:25:41,828 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Avatar: 178
+2015-05-23 14:25:41,828 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 226823
+2015-05-23 14:25:41,828 [1] INFO  ElementalKingdoms.ui.LeaguePlayer::SetLeagueRoundResult - Total : 1.508427
+2015-05-23 14:25:42,002 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image rune_47.png
+2015-05-23 14:25:43,169 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image rune_25.png
+2015-05-23 14:25:44,409 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image rune_24.png
+2015-05-23 14:25:45,491 [1] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image rune_6.png
+2015-05-23 14:25:46,790 [7] ERROR ElementalKingdoms.server.ServerCommunicator::GetImageFromFileOrPackage - Could not find image img_photoCard_9006.PNG
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]
+[Header]
+[Footer]

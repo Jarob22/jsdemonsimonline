@@ -1,0 +1,188 @@
+0.0.5.7
+Bugfixes
+- Fixed performance issues with FoH simulation
+
+0.0.5.6
+New
+- Frost Shock skill implemented
+- Shield of Earth skill implemented
+- Inspire skill implemented (not available ingame yet)
+- When you run out of life, the battle immediately ends instead of at the end of the round
+
+Improvements
+- When connecting to a server, download all data files. No need to click all the buttons one by one anymore.
+- Tooltips with the full status ailment name on mouseover
+- You are now able to select any skill as evolve skill in the card searcher
+
+Bugfixes
+- FoH progress bar will now properly end at 100%
+- Evolution skills on map stages will now be properly loaded
+- Several runes will no longer activate if you have no cards on the battlefield, costing precious charges 
+    Runes affected: Arctic Freeze, Blood Stone, Dirt, Explosion, Fire Forge, Flying Stone, Frost Bite, Ghost Step,
+                    Ice Wall, Lore, Mineral, Nimble Soul, Raised Flag, Red Valley, Revival, Spring Breeze, 
+                    Stone Forest, Stonewall, Thunder Shield, Transparency, Tsunami  
+- Results should now be cleared when upgrading to a new version
+
+0.0.5.5
+New
+- The FoH simulator is now able to determine who will be attacker in a match. This means that there will be no more chance-range (unless you disable this mode)
+
+Improvements
+- Display version and number of iterations in the FoH simulator
+
+Bugfixes
+- Guard damage overkill is now properly applied to the player
+
+0.0.5.4
+Improvements
+- Your latest fight will now be automatically loaded when you reopen the application
+
+Bugfixes
+- Fixed issue where Fireball, Firewall and Firestorm (and their Quick Strike / Desperation equivalents) would always to their lowest possible damage
+
+0.0.5.3
+Bugfixes
+- Fixed issue where the runes of map levels would not be loaded
+- Fixed crash when loading a FoH match where a player has an avatar of a card that has not retrieved from the server yet
+- Greatly reduced the chance that demons and thieves will die due to not enough 'hero hp'
+- Fixed a crash with Healing Mist
+- Fixed issue where no logging would be visible in the log window
+- Fixed FoH icon for players who have Dumpling Feast as avatar
+
+0.0.5.2
+Improvements
+- Display status ailments
+
+Bugfixes
+- Fixed issue when loading a FoH round where someone has the default male/female avatar
+- Fire God and Combustion will no longer be applied to cards with Immunity
+- Fixed crash when trying to change a demon card
+- Fixed issue where the rune status would not be properly displayed when resetting the battle
+
+
+0.0.5.1
+Improvements
+- The Field of Honor simulator is looking a bit prettier now.
+- Loading your settings (like number of rounds and selected server) after updating
+- Added url to website in about dialog
+
+Bugfixes
+- Fixed Advanced Strike and Warcry not reducing but increasing the wait time of your own cards.
+- Fixed a crash when loading a Field of Honor round where more then 2147483647 honor has been bet
+
+
+0.0.5.0
+New
+- You are now able to select a level 100 (legendary) thief as opponent. Tweak your thief decks!
+- Now able to load map stages from the server
+- The card searcher now displays the evolution chain of the selected card. Clicking on the cards select them in the list, unless they are hidden due to filters
+
+Improvements
+- In several places, images are loaded in the background to make the application more responsive
+- When you select a different card, its level is reset to 10 and its evo skill is removed.
+- When editing a card, it will now be selected in the list instead of having its name as filter.
+- Remember hero level when closing application
+- Slightly moved the deck editor to remove the clipping
+- Slightly adjusted the FoH simulator fight results output
+- Highlight stars / race of the selected card in the Card Searcher
+- Remember the last server you have connected to
+
+Bugfixes
+- Fixed crash with Mineral rune
+
+
+0.0.4.2
+Bugfixes
+- Fixed crash involving a combination of Desperation: Reanimation and Quick Strike: Exile
+- Fixed crash when a card dies due to retaliation
+
+
+0.0.4.1
+Improvements
+- Performing multiple FoH simulations adds some extra whitespace
+
+Bugfixes
+- Fixed a crash when changing the number of simulations in the FoH window
+- Desperation: Reanimation is now working
+
+
+0.0.4.0
+New
+- Results of simulations are now stored in a file. You can look back at past results in Options -> Results. 
+
+Improvements
+- Search by rune skill as well (so you can just type in 'snipe' to get Leaf and Flying Stone)
+- Now able to remove runes in the deck editor. Just try right-clicking on one.
+- Display if a rune is active on the battlefield display
+- Reduced size of deck editor images to make room for more usefull stuff.
+- Now able to remove decks (just select one in the editor and click on the delete button).
+
+Bugfixes
+- Fixed soem typo's!
+- Mineral rune is now working
+- Fixed crash when loading a completed Field of Honor season from the server (between 23:00 and 0:00 server time)
+- Fixed battlefield rune display, where runes would not always be properly removed.
+- Corrected the order of AfterAttack skills (Bloodsucker, Weaken, Blight, Bloodthirsty, Laceration and Puncture) and AfterDefend skills (Counterattack, Retaliation, Craze, Devil's Armor, Combustion and Wicked Leech)
+- Clean Sweep secondary targets no longer ignore AfterAttack and AfterDefend skills
+- Fixed crash if there is no leagueinfo.json present
+
+
+0.0.3.1
+Bugfixes
+- Fixed crash after closing the LogWindow
+- Fixed issues obtaining Field of Honor data from the server
+- Fixed issue introduced in 0.0.3.0 where some skills would not work anymore
+- Corrected the round 51 and beyond damage.
+
+
+0.0.3.0
+New
+- Field of Honor menu added to Opponent. This menu is filled with recent FoH decks.
+- Easy simulator for Field of Honor rounds. Check it out in Opponent -> Field of Honor -> FoH Simulator. You can connect to a game server in this dialog and load the current Field of Honor decks. You can also load card, rune and skill data from the server here.
+
+Improvements
+- Display cooldown time and MPM (merit per minute) when simulating a demon fight
+
+Bugfixes
+- Spring Breeze rune is now working
+- Advanced Strike no longer causes the application to crash
+- Revival rune is now working
+
+
+0.0.2.1
+New
+- Added button to clear simulation results
+
+Improvements
+- Made editing deck more responsive by no longer auto-simulating
+
+Bugfixes
+- Self-Destruct (and Explosion) are now working
+- Advanced Strike is now working
+- Warcry is now working
+- Combustion is now working
+- Dexterity is now working
+
+
+0.0.2.0
+New
+- Reset battle
+- You can now select the number of simulated battles. Less clicking!
+- Show number of times round 100 is reached
+- Auto-play a battle
+
+Improvements
+- Easier to remove evolve skill
+- Reduced lag when editing cards in your deck
+- Made the deck-edit buttons more prominent
+
+Bugfixes
+- Display correct level when editing a card
+- Corrected hero hp for levels above 100
+- Fixed issue where a card killed by a skill would still act as a defender
+- Fixed issue where you could not properly select an evolve skill if you are searching by name
+- Now able to properly see card info on mouseover in the deck editor
+- Fixed missing evolve skills Evasion, Ice Shield 4 and Sacred Flame
+
+0.0.1.0
+Initial release

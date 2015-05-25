@@ -1,0 +1,174 @@
+{
+  "Attacker": {
+    "Uid": 0,
+    "NickName": null,
+    "Sex": 0,
+    "Avatar": 0,
+    "HP": 14350,
+    "Coins": 0,
+    "Cash": 0,
+    "Ticket": 0,
+    "Energy": 0,
+    "EnergyMax": 0,
+    "Level": 90,
+    "Cost": 170,
+    "UserCards": [],
+    "CurrentDeckIndex": 0,
+    "AllDecks": [
+      {
+        "UserCardInfo": [
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 106,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 9,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 9,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          },
+          {
+            "CardId": 9,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          }
+        ],
+        "Runes": [
+          {
+            "RuneId": 47,
+            "Level": 4
+          },
+          {
+            "RuneId": 25,
+            "Level": 4
+          },
+          {
+            "RuneId": 24,
+            "Level": 4
+          },
+          {
+            "RuneId": 6,
+            "Level": 4
+          }
+        ],
+        "Uid": 0,
+        "GroupId": 0,
+        "Name": null
+      }
+    ],
+    "UserMapStages": null,
+    "UserRunes": null
+  },
+  "Defender": {
+    "Uid": 0,
+    "NickName": null,
+    "Sex": 0,
+    "Avatar": 0,
+    "HP": 100000000,
+    "Coins": 0,
+    "Cash": 0,
+    "Ticket": 0,
+    "Energy": 0,
+    "EnergyMax": 0,
+    "Level": 0,
+    "Cost": 10,
+    "UserCards": [],
+    "CurrentDeckIndex": 0,
+    "AllDecks": [
+      {
+        "UserCardInfo": [
+          {
+            "CardId": 9006,
+            "Level": 10,
+            "Evolution": 0,
+            "WashTime": null,
+            "SkillNew": 0,
+            "Exp": 0,
+            "UserCardId": 0
+          }
+        ],
+        "Runes": [],
+        "Uid": 0,
+        "GroupId": 0,
+        "Name": null
+      }
+    ],
+    "UserMapStages": null,
+    "UserRunes": null
+  }
+}
