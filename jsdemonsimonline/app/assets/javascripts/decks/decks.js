@@ -22,10 +22,8 @@ function confirmAddCard() {
 	else {
 		var cardEntry = name + ";" + lvl + ";" + evoskill;
 		var newCard = document.createElement("div");
-		var newCardInfo = document.createElement("input");
-		var removeSpan = document.createElement("span");
 		newCard.innerText = name + " (" + lvl + ") " + evoskill;
-		doJsStyling(newCard, removeSpan, newCardInfo, cardEntry);
+		doJsStyling(newCard, cardEntry);
 	}
 	setCardsTextValue();
 	hideNewCardUI();
@@ -40,30 +38,20 @@ function setCardsTextValue() {
 	})
 }
 
-function doJsStyling(newCard, removeSpan, newCardInfo, cardEntry) {
+function doJsStyling(newCard, cardEntry) {
+		var newCardInfo = document.createElement("input");
+		var removeSpan = document.createElement("span");
 		if(!cardEntry)
 			cardEntry = "";
 		newCard.appendChild(removeSpan);
+		newCard.className = "card";
 		removeSpan.innerText = " ";
 		removeSpan.className = "arrow";
-//		removeSpan.style.width = "10px";
-		removeSpan.style.height = "1px";
-//		removeSpan.style.background = "linear-gradient(#900000, #C80000)";
-		removeSpan.style.textAlign = "right";
-		removeSpan.style.top = "0";
-		removeSpan.style.right = "0";
-		removeSpan.style.position = "absolute";
-		removeSpan.style.cursor = "pointer";
 		$(removeSpan).bind("click", function() { this.parentNode.remove(); setCardsTextValue(); })
 		newCard.appendChild(newCardInfo);
 		newCardInfo.type = "hidden";
 		newCardInfo.value = cardEntry;
 		newCardInfo.className = "cardinfo";
-		newCard.style.backgroundColor = "turquoise";
-		newCard.style.padding = "10px"
-		newCard.style.margin = "10px";
-		newCard.style.display = "inline";
-		newCard.style.position = "relative";
 		$('#cardsDiv')[0].appendChild(newCard);
 }
 
@@ -74,5 +62,5 @@ function createCard(cardEntry) {
     var newCardInfo = document.createElement("input");
     var removeSpan = document.createElement("span");
     newCard.innerText = cardEntryArr[0] + " (" + cardEntryArr[1] + ") " + (cardEntryArr.length > 2 ? cardEntryArr[2] : "");
-		doJsStyling(newCard, removeSpan, newCardInfo);
+		doJsStyling(newCard);
   }
