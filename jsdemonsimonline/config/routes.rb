@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+  get 'foh/showresults'
+
 	resources :decks do
 		member do
 			get 'sim'

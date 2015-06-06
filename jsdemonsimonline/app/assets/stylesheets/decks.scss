@@ -37,3 +37,33 @@ textarea {
 #cardslistdiv {
 	display: none
 }
+#new_card_ui {
+	display: none;
+	background-color: turquoise;
+	border-width: 2px;
+	width:170px;
+	margin: 0 auto;
+	padding: 20px;
+}
+#deck_cards {
+	display: none
+}
+
+.arrow {
+	cursor: pointer;
+	color: white;
+	border: 1px solid #AEAEAE;
+	border-radius: 5px;
+	background: #605F61;
+	font-size: 8px;
+	font-weight: bold;
+	display: inline-block;
+	line-height: 0px;
+	padding: 4px 2px;
+}
+.arrow:before{
+	content: "x";
+}
+label {
+	font-weight: bold
+}

@@ -1,6 +1,9 @@
-<h1>Editing Deck</h1>
-
-<%= render 'form' %>
-
-<%= link_to 'Show', @deck %> |
-<%= link_to 'Back', decks_path %>
+<div id="new_deck_content">
+	<h1>Editing Deck</h1>
+	
+	<%= render 'form' %>
+		
+	<%= link_to 'Show', @deck %> |
+	<%= link_to 'Back', decks_path %>
+</div>
+<div id="new_card_ui"><%= render 'new_card' %></div>
