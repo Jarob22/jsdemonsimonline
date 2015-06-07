@@ -7,7 +7,8 @@
 
 <p>
   <strong>Cards:</strong>
-  <%= @deck.cards %>
+  <span id="deck_cards"> <%= @deck.cards %> </span>
+	<div id="cardsDiv"></div>
 </p>
 
 <p>
@@ -22,3 +23,13 @@
 
 <%= link_to 'Edit', edit_deck_path(@deck) %> |
 <%= link_to 'Back', decks_path %>
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+		var cardsValue = $('#deck_cards')[0].innerText.trim();
+		if(cardsValue != "") {
+			cardsValue.split(",").forEach(function(val) { createCard(val); });
+		}
+		$('.arrow').each(function(i) { this.remove(); });
+	});
+</script>

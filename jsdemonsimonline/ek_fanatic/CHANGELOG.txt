@@ -1,3 +1,10 @@
+0.0.6.0
+New
+- Added console application. Only FoH and DI are supported for now. 
+- Display total deck cost
+- Able to set the number of times a card is evolved (to ensure the correct cost is used for unleveled cards)
+- Silence skill implemented - Bahamut should be working now
+
 0.0.5.7
 Bugfixes
 - Fixed performance issues with FoH simulation

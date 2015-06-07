@@ -12,9 +12,9 @@ function hideNewCardUI() {
 	$('#app_content').fadeTo(200,1);
 }
 function confirmAddCard() {
-	var name = $('#cardname')[0].value;
+	var name = $('#cardname_')[0].value;
 	var lvl = $('#cardlevel')[0].value;
-	var evoskill = $('#cardevoskill')[0].value
+	var evoskill = $('#cardevoskill_')[0].value
 	if(name == "") {
 		alert("You must input a name!");
 		return;
@@ -59,8 +59,6 @@ function doJsStyling(newCard, cardEntry) {
 function createCard(cardEntry) {
     var cardEntryArr = cardEntry.split(";");
     var newCard = document.createElement("div");
-    var newCardInfo = document.createElement("input");
-    var removeSpan = document.createElement("span");
     newCard.innerText = cardEntryArr[0] + " (" + cardEntryArr[1] + ") " + (cardEntryArr.length > 2 ? cardEntryArr[2] : "");
 		doJsStyling(newCard);
   }

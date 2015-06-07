@@ -14,7 +14,32 @@ class DecksController < ApplicationController
     respond_with(@deck)
   end
 
-  def new
+	def getAllAttrValues(file_name, array_name, attr_name)
+		cards_json = JSON.parse(File.read("cache/" + file_name + ".json"))
+		namesArr = []
+		namesArr.push ""
+		counter = 0
+		cards_json['data'][array_name].each do |card|
+			if file_name == "skills"
+				if card["SkillId"].to_i > 6000
+					next
+				end
+			end
+			namesArr.push card[attr_name]
+			counter += 1
+		end
+		namesArr.sort_by!{ |e| e.downcase }
+	end
+
+	helper_method :getAllAttrValues
+
+	def test
+		"asd"
+	end
+
+	helper_method :test
+
+	def new
     @deck = Deck.new
     respond_with(@deck)
   end

@@ -33,46 +33,6 @@
   </div>
 <% end %>
 <script type="text/javascript">
-
-	
-//	function setCardsTextValue() {
-//	  $('#deck_cards')[0].value = "";
-//	  $('.cardinfo').each(function(i) {
-//	    $('#deck_cards')[0].value += this.value;
-//	    if(i != ($('.cardinfo').length - 1)) {
-//	      $('#deck_cards')[0].value += ",";
-//	    }
-//	  })
-//	}
-
-//	function createCard(cardEntry) {
-//	  var cardEntryArr = cardEntry.split(";");
-//	  var newCard = document.createElement("div");
-//	  var newCardInfo = document.createElement("input");
-//	  var removeSpan = document.createElement("span");
-//	  newCard.innerText = cardEntryArr[0] + " (" + cardEntryArr[1] + ") " + (cardEntryArr.length > 2 ? cardEntryArr[2] : "");
-//	  newCard.appendChild(removeSpan);
-//	  removeSpan.innerText = " ";
-//	  removeSpan.style.width = "10px";
-//	  removeSpan.style.height = "10px";
-//	  removeSpan.style.backgroundColor = "red";
-//	  removeSpan.style.textAlign = "right";
-//	  removeSpan.style.top = "0";
-//	  removeSpan.style.right = "0";
-//	  removeSpan.style.position = "absolute";
-//	  removeSpan.style.cursor = "pointer";
-//	  removeSpan.onclick = function(e) { this.parentNode.remove();setCardsTextValue(); };
-//	  newCard.appendChild(newCardInfo);
-//	  newCardInfo.type = "hidden";
-//	  newCardInfo.value = cardEntry;
-//	  newCardInfo.className = "cardinfo";
-//	  newCard.style.backgroundColor = "turquoise";
-//	  newCard.style.padding = "10px"
-//	  newCard.style.margin = "10px";
-//	  newCard.style.display = "inline";
-//	  newCard.style.position = "relative";
-//	  $('#cardsDiv')[0].appendChild(newCard);
-//	}
 	$( document ).ready(function() {
 		var cardsValue = $('#deck_cards')[0].value;
 		if(cardsValue != "") {

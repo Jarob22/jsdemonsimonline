@@ -1,0 +1,26 @@
+# This is a sample deck file. It is divided in 3 parts, separated by a blank line
+# Oh, lines starting with a # are comments and are ignored.
+# First up is the player section. Level, with optionally a name, separated by a ;. So you can either write just a number
+# or a number followed by a ; and then a name.
+100;Peppa
+
+# Here is the card section. Just write the full name of the card here. Optionally you can pass a level and an evolve skill.
+# Default level is 10, and no evolve skill.
+Headless Horseman
+Headless Horseman
+Headless Horseman
+Headless Horseman
+Headless Horseman
+Headless Horseman
+Headless Horseman; 5   
+Lava Destroyer;15  ;Feast of Blood 9
+Wood Elf Archer
+Wood Elf Archer
+
+# Finally runes. Same as with cards, just pass the name. If you want to use a different level, you can also pass that here.
+Lore
+Fire Forge
+Leaf
+Revival;1
+
+# no more stuff here. 

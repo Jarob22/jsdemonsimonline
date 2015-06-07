@@ -21,7 +21,7 @@ Current level: <%= current_user.level %>  <%= link_to 'Edit user info', edit_use
 					<dt>Cards</dt>
 					<dd>
 						<% deck.cards.split(',').each do |card| %>
-							<%= card %><br>
+							<%= card.gsub(";", " ") %><br>
 						<% end %>
 					</dd>
 					<dt>Runes</dt>
@@ -43,3 +43,4 @@ Current level: <%= current_user.level %>  <%= link_to 'Edit user info', edit_use
 <% end %>
 
 <%= link_to 'New Deck', new_deck_path %>
+
